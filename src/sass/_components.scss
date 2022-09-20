@@ -1,0 +1,37 @@
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1300px;
+}
+
+.wrapper-small {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 950px;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: $white;
+    margin: 1em 0;
+    text-align: center;
+}
+
+
+
+.section {
+    padding: 5em 0;
+}
+
+@media(min-width: 768px) {
+    .section-heading {
+        font-size: 3rem;
+    }
+}
+
+@media(min-width: 992px) {
+    .section-heading {
+        font-size: 3.5rem;
+    }
+}

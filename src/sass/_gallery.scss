@@ -1,0 +1,30 @@
+.gallery {
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__img {
+        width: 100%;
+        margin: 1em 0;
+        object-fit: cover;
+    }
+}
+
+@media(min-width: 768px) {
+    .gallery {
+
+        &__box {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__img {
+            width: 270px;
+            height: 270px;
+            margin: 1em;
+        }
+    }
+}
